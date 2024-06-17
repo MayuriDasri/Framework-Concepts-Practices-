@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteOne">
+	<listeners>
+		<listener class-name="TestPackage.ListenersClass" />
+	</listeners>
+
+  <test thread-count="5" name="TestOne">
+    <classes>
+      <class name="TestPackage.classOne"/>
+      <class name="TestPackage.Login"/>
+      <class name="TestPackage.LoginWithDataProvider"/>
+      
+    </classes>
+  </test> <!-- TestOne -->
+</suite> <!-- SuiteOne -->
