@@ -6,8 +6,9 @@ public class Addition {
 		
 		int a = 10;
 		int b = 20;
-		
-		System.out.println(a+b);
+		int c = 30;	
+		System.out.println("Addition of 2 numbers : "+ (a+b));
+		System.out.println("Addition of 3 numbers : " + (a+b+c));
 
 	}
 
